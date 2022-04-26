@@ -4,7 +4,7 @@ const path = require("path");
 
 app.use(express.static("public"));
 
-app.listen(3030, (req, res) => {
+app.listen(procces.env.PORT || 3030, () => {
   console.log("Levantando el Servidor");
 });
 
