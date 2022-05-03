@@ -296,10 +296,7 @@ h3{
     .navbar{
         display: block;
     }
-    .articulo3{
-        display: block;
-    }
-     
+        
     .navbar {       
         display: flex;
         padding-bottom: 20px;
